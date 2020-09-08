@@ -1,0 +1,105 @@
+2020-09-07 12:31:41,956 INFO: Microblog startup [in C:\Users\Jeff\Documents\Python\MegaTutorial\app\__init__.py:44
+2020-09-07 18:14:25,306 INFO: Microblog startup [in C:\Users\Jeff\Documents\Python\MegaTutorial\app\__init__.py:44
+2020-09-07 18:14:39,235 INFO: Microblog startup [in C:\Users\Jeff\Documents\Python\MegaTutorial\app\__init__.py:44
+2020-09-07 18:14:55,510 INFO: Microblog startup [in C:\Users\Jeff\Documents\Python\MegaTutorial\app\__init__.py:44
+2020-09-07 18:33:30,680 INFO: Microblog startup [in C:\Users\Jeff\Documents\Python\MegaTutorial\app\__init__.py:44
+2020-09-07 20:24:00,229 INFO: Microblog startup [in C:\Users\Jeff\Documents\Python\MegaTutorial\app\__init__.py:44
+2020-09-07 20:27:06,398 INFO: Microblog startup [in C:\Users\Jeff\Documents\Python\MegaTutorial\app\__init__.py:44
+2020-09-07 20:54:46,516 INFO: Microblog startup [in C:\Users\Jeff\Documents\Python\MegaTutorial\app\__init__.py:44
+2020-09-07 20:58:13,102 ERROR: Exception on /follow/JEFF [GET] [in c:\users\jeff\documents\python\megatutorial\venv\lib\site-packages\flask\app.py:1891
+Traceback (most recent call last):
+  File "c:\users\jeff\documents\python\megatutorial\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\jeff\documents\python\megatutorial\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\jeff\documents\python\megatutorial\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\jeff\documents\python\megatutorial\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\jeff\documents\python\megatutorial\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\jeff\documents\python\megatutorial\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\users\jeff\documents\python\megatutorial\venv\lib\site-packages\flask_login\utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\Jeff\Documents\Python\MegaTutorial\app\routes.py", line 102, in follow
+    current.user.follow(user)
+NameError: name 'current' is not defined
+2020-09-07 20:59:07,469 ERROR: Exception on /follow/JEFF [GET] [in c:\users\jeff\documents\python\megatutorial\venv\lib\site-packages\flask\app.py:1891
+Traceback (most recent call last):
+  File "c:\users\jeff\documents\python\megatutorial\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\jeff\documents\python\megatutorial\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\jeff\documents\python\megatutorial\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\jeff\documents\python\megatutorial\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\jeff\documents\python\megatutorial\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\jeff\documents\python\megatutorial\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\users\jeff\documents\python\megatutorial\venv\lib\site-packages\flask_login\utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\Jeff\Documents\Python\MegaTutorial\app\routes.py", line 102, in follow
+    current_user.follow(user)
+NameError: name 'current' is not defined
+2020-09-07 20:59:14,642 INFO: Microblog startup [in C:\Users\Jeff\Documents\Python\MegaTutorial\app\__init__.py:44
+2020-09-07 20:59:25,653 ERROR: Exception on /follow/JEFF [GET] [in c:\users\jeff\documents\python\megatutorial\venv\lib\site-packages\flask\app.py:1891
+Traceback (most recent call last):
+  File "c:\users\jeff\documents\python\megatutorial\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\jeff\documents\python\megatutorial\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\jeff\documents\python\megatutorial\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\jeff\documents\python\megatutorial\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\jeff\documents\python\megatutorial\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\jeff\documents\python\megatutorial\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\users\jeff\documents\python\megatutorial\venv\lib\site-packages\flask_login\utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\Jeff\Documents\Python\MegaTutorial\app\routes.py", line 105, in follow
+    return redirect(url_for('user'), username=username)
+  File "c:\users\jeff\documents\python\megatutorial\venv\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "c:\users\jeff\documents\python\megatutorial\venv\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\jeff\documents\python\megatutorial\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\jeff\documents\python\megatutorial\venv\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "c:\users\jeff\documents\python\megatutorial\venv\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'user'. Did you forget to specify values ['username']?
+2020-09-07 21:01:59,478 ERROR: Exception on /follow/JEFF [GET] [in c:\users\jeff\documents\python\megatutorial\venv\lib\site-packages\flask\app.py:1891
+Traceback (most recent call last):
+  File "c:\users\jeff\documents\python\megatutorial\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\jeff\documents\python\megatutorial\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\jeff\documents\python\megatutorial\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\jeff\documents\python\megatutorial\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\jeff\documents\python\megatutorial\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\jeff\documents\python\megatutorial\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\users\jeff\documents\python\megatutorial\venv\lib\site-packages\flask_login\utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\Jeff\Documents\Python\MegaTutorial\app\routes.py", line 105, in follow
+    return redirect(url_for('user'), username=username)
+  File "c:\users\jeff\documents\python\megatutorial\venv\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "c:\users\jeff\documents\python\megatutorial\venv\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\jeff\documents\python\megatutorial\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\jeff\documents\python\megatutorial\venv\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "c:\users\jeff\documents\python\megatutorial\venv\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'user'. Did you forget to specify values ['username']?
